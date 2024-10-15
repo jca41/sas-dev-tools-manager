@@ -1,8 +1,9 @@
 # Setup
 
 - Checkout this repo
-- `npm i -g zx`
-- `npm link`
+- `pnpm i`
+- `pnpm i -g zx`
+- `pnpm link --global`
 
 # How to use
 
