@@ -7,4 +7,4 @@
 
 # How to use
 
-Simply run `sas-dev-tools-manager` on the parent folder when the packages live.
+Simply run `sas-dev-tools-manager` on the parent folder where the packages live.
