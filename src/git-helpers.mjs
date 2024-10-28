@@ -12,7 +12,7 @@ export async function checkPackage({ repo, branch }) {
   const hasChanges = gitStatus.lines().filter((l) => Boolean(l)).length > 0;
 
   if (hasChanges) {
-    echo(chalk.red("- Detected local changes, stashing them."));
+    echo(chalk.red("Detected local changes, stashing them."));
     await $`git stash`;
   }
 
